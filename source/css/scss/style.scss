@@ -53,7 +53,64 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
  * TOC To Be Continued
  */
 
+//fonts
 
+/* Blender */
+
+@font-face {
+  font-family: 'Blender Pro';
+  src: url('../fonts/BlenderPro-Medium.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Blender Pro';
+  src: url('../fonts/BlenderPro-MediumItalic.otf') format('opentype');
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Blender Pro';
+  src: url('../fonts/BlenderPro-Bold.otf') format('opentype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Blender Pro';
+  src: url('../fonts/BlenderPro-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Franklin Gothic */
+
+@font-face {
+  font-family: 'Franklin Gothic';
+  src: url('../fonts/franklin-gothic-book.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Franklin Gothic';
+  src: url('../fonts/franklin-gothic-bookitalic.woff2') format('woff2');
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Franklin Gothic';
+  src: url('../fonts/franklin-gothic-medium.woff2') format('woff2');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Franklin Gothic';
+  src: url('../fonts/franklin-gothic-mediumitalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Franklin Gothic';
+  src: url('../fonts/franklin-gothic-bold.woff2') format('woff2');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Franklin Gothic';
+  src: url('../fonts/franklin-gothic-bolditalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+}
 
 @import "generic/variables";
 @import "generic/mixins";
