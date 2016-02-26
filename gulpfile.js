@@ -1,6 +1,8 @@
 // Special thanks to oscar-g (https://github.com/oscar-g) for starting this at https://github.com/oscar-g/patternlab-node/tree/dev-gulp
 
-var pkg = require('./package.json'),
+var 
+    config = require('./config.json'),
+    pkg = require('./package.json'),
     gulp = require('gulp'),
     path = require('path'),
     eol = require('os').EOL,
@@ -72,14 +74,14 @@ gulp.task('banner', function(){
 
 // Task: Handle Sass and CSS
 gulp.task('sass', function () {
-  return gulp.src(paths().source.scss.files)
+  return gulp.src(config.paths.source.scss.files)
     .pipe(sass())
     .pipe(gulpif(production, cssmin()))
     .pipe(gulpif(production, rename({
       suffix: '.min'
     })))
     .pipe(gulp.dest(
-      path.resolve(paths().source.scss.dest)
+      path.resolve(config.paths.source.scss.dest)
     ))
     .pipe(browserSync.reload({stream:true}));
 });
@@ -163,14 +165,14 @@ gulp.task('connect', ['lab'], function () {
 
  // Watch Sass
   gulp.watch(
-    paths().source.scss.files
+    path.resolve(paths().source.scss.base, '**/*.scss'),
     ['sass']
   );
 
   gulp.watch(
     [
       path.resolve(paths().source.patterns, '**/*.mustache'),
-      path.resolve(paths().source.patterns, '**/*.json'),
+      path.resolve(paths().source.patterns, '**/*.json'),      
       path.resolve(paths().source.data, '*.json'),
       path.resolve(paths().source.fonts + '/*'),
       path.resolve(paths().source.images + '/*'),
