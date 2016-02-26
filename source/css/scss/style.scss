@@ -82,32 +82,32 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
 
 @font-face {
   font-family: 'Franklin Gothic';
-  src: url('../fonts/franklin-gothic-book.woff2') format('woff2');
+  src: url('../fonts/franklin-gothic-book.otf') format('opentype');
 }
 @font-face {
   font-family: 'Franklin Gothic';
-  src: url('../fonts/franklin-gothic-bookitalic.woff2') format('woff2');
+  src: url('../fonts/franklin-gothic-bookitalic.otf') format('opentype');
   font-style: italic;
 }
 @font-face {
   font-family: 'Franklin Gothic';
-  src: url('../fonts/franklin-gothic-medium.woff2') format('woff2');
+  src: url('../fonts/franklin-gothic-medium.otf') format('opentype');
   font-weight: 500;
 }
 @font-face {
   font-family: 'Franklin Gothic';
-  src: url('../fonts/franklin-gothic-mediumitalic.woff2') format('woff2');
+  src: url('../fonts/franklin-gothic-mediumitalic.otf') format('opentype');
   font-weight: 500;
   font-style: italic;
 }
 @font-face {
   font-family: 'Franklin Gothic';
-  src: url('../fonts/franklin-gothic-bold.woff2') format('woff2');
+  src: url('../fonts/franklin-gothic-bold.otf') format('opentype');
   font-weight: 700;
 }
 @font-face {
   font-family: 'Franklin Gothic';
-  src: url('../fonts/franklin-gothic-bolditalic.woff2') format('woff2');
+  src: url('../fonts/franklin-gothic-bolditalic.otf') format('opentype');
   font-weight: 700;
   font-style: italic;
 }
