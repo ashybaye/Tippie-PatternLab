@@ -11,8 +11,8 @@
       "fonts" : "./source/fonts",
       "css" : "./source/css/",
       "scss": {
-        "base" : "./source/css/scss/",
-        "files": ["./source/css/scss/**/*.scss"],
+        "base" : "./source/bootstrap/stylesheets/",
+        "files": ["./source/bootstrap/stylesheets/**/*.scss"],
         "dest" : "./source/css/"
       }
     },
