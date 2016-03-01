@@ -4,6 +4,65 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+//fonts
+
+/* Blender */
+
+@font-face {
+  font-family: 'Blender Pro';
+  src: url('../fonts/BlenderPro-Medium.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Blender Pro';
+  src: url('../fonts/BlenderPro-MediumItalic.otf') format('opentype');
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Blender Pro';
+  src: url('../fonts/BlenderPro-Bold.otf') format('opentype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Blender Pro';
+  src: url('../fonts/BlenderPro-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Franklin Gothic */
+
+@font-face {
+  font-family: 'Franklin Gothic';
+  src: url('../fonts/franklin-gothic-book.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Franklin Gothic';
+  src: url('../fonts/franklin-gothic-bookitalic.otf') format('opentype');
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Franklin Gothic';
+  src: url('../fonts/franklin-gothic-medium.otf') format('opentype');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Franklin Gothic';
+  src: url('../fonts/franklin-gothic-mediumitalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Franklin Gothic';
+  src: url('../fonts/franklin-gothic-bold.otf') format('opentype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Franklin Gothic';
+  src: url('../fonts/franklin-gothic-bolditalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
 // Core variables and mixins
 @import "bootstrap/variables";
 @import "bootstrap/mixins";

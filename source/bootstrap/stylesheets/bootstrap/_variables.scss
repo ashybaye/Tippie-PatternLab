@@ -8,7 +8,7 @@ $bootstrap-sass-asset-helper: false !default;
 //
 //## Gray and brand colors for use across Bootstrap.
 
-$gray-base:              #000 !default;
+$gray-base:              #000 !default; 
 $gray-darker:            lighten($gray-base, 13.5%) !default; // #222
 $gray-dark:              lighten($gray-base, 20%) !default;   // #333
 $gray:                   lighten($gray-base, 33.5%) !default; // #555
@@ -21,6 +21,20 @@ $brand-info:            #5bc0de !default;
 $brand-warning:         #f0ad4e !default;
 $brand-danger:          #d9534f !default;
 
+$gray-dark-2 : #131313;
+$white : #fff;
+$gold : #FFCD00; /* Top navigation bar, triangles and other shapes */
+$gold-dark : #f5bd18; /* Shading in top navigation bar and menus on medium and small screens */
+$black : #000;
+
+$orange: #fe5e00; /* Buttons, arrows */
+$orange-dark: #e55500; /* Right-hand calls to action */
+
+$gray-dark: #56565a; /* In This Section header, copyright bar */
+$gray-light: #ebe7e3; /* Light gray boxes */
+$blue: #0098d9; /* Links */
+$blue-dark: #00a1c6; /* Backgrouond for "At a Glance" and "Connect" */
+
 
 //== Scaffolding
 //
@@ -29,7 +43,7 @@ $brand-danger:          #d9534f !default;
 //** Background color for `<body>`.
 $body-bg:               #fff !default;
 //** Global text color on `<body>`.
-$text-color:            $gray-dark !default;
+$text-color:            $black !default;
 
 //** Global textual link color.
 $link-color:            $brand-primary !default;
@@ -43,8 +57,8 @@ $link-hover-decoration: underline !default;
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+$font-family-sans-serif:  "Franklin Gothic", Arial, sans-serif !default;
+$font-family-serif:       "Blender Pro", Arial, sans-serif !default;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
 $font-family-base:        $font-family-sans-serif !default;
@@ -55,7 +69,7 @@ $font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
 
 $font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~36px
 $font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
-$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
+$font-size-h3:            ceil(($font-size-base * 1.9)) !default; // ~27px
 $font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
 $font-size-h5:            $font-size-base !default;
 $font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
@@ -66,8 +80,9 @@ $line-height-base:        1.428571429 !default; // 20/14
 $line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
 
 //** By default, this inherits from the `<body>`.
-$headings-font-family:    inherit !default;
-$headings-font-weight:    500 !default;
+$headings-font-family:    "Blender Pro", Arial, sans-serif !default;
+$headings-font-weight:    700 !default;
+$headings-font-weight-med:500 !default;
 $headings-line-height:    1.1 !default;
 $headings-color:          inherit !default;
 
